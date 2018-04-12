@@ -7,7 +7,6 @@
 
 ### Type aliases
 
-* [ConsumerApi](#consumerapi)
 * [Effect](#effect)
 * [EffectFn](#effectfn)
 * [Epic](#epic)
@@ -30,7 +29,6 @@
 * [PersistConfig](#persistconfig)
 * [PersistStorage](#persiststorage)
 * [Reducer](#reducer)
-* [RenderProps](#renderprops)
 * [Stapp](#stapp)
 
 
@@ -82,36 +80,6 @@
 
 
 
-<a id="consumerapi"></a>
-
-###  ConsumerApi
-
-**Τ ConsumerApi**:  *`object`* 
-
-*Defined in react/createConsumer/createConsumer.h.ts:9*
-
-
-#### Type declaration
-
-
-
-
- api: `Api`
-
-
-
-
-
-
- state: `State`
-
-
-
-
-
-
-
-___
 
 
 
@@ -121,7 +89,6 @@ ___
 
 **Τ Effect**:  *`object`* 
 
-*Defined in core/createEffect/createEffect.h.ts:4*
 
 
 #### Type declaration
@@ -170,7 +137,6 @@ ___
 
 
 
-*Defined in core/createEffect/createEffect.h.ts:10*
 
 
 
@@ -187,7 +153,6 @@ ___
 
 
 
-*Defined in core/createEffect/createEffect.h.ts:9*
 
 
 
@@ -217,7 +182,6 @@ ___
 
 **Τ EffectFn**:  *`function`* 
 
-*Defined in core/createEffect/createEffect.h.ts:30*
 
 
 
@@ -264,7 +228,6 @@ ___
 
 **Τ Epic**:  *[EventEpic](#eventepic)`any`, `any`, `State`* 
 
-*Defined in core/createApp/createApp.h.ts:47*
 
 
 
@@ -295,7 +258,6 @@ ___
 
 **Τ Event**:  *`object`* 
 
-*Defined in core/createEvent/createEvent.h.ts:16*
 
 
 #### Type declaration
@@ -344,7 +306,6 @@ ___
 
 **Τ EventCreators**:  *`object`* 
 
-*Defined in core/createEvent/createEvent.h.ts:108*
 
 
 
@@ -368,7 +329,6 @@ ___
 
 **Τ EventEpic**:  *`function`* 
 
-*Defined in core/createApp/createApp.h.ts:23*
 
 
 
@@ -413,7 +373,6 @@ ___
 
 **Τ EventHandler**:  *`function`* 
 
-*Defined in core/createReducer/createReducer.h.ts:20*
 
 
 
@@ -460,7 +419,6 @@ ___
 
 **Τ EventHandlers**:  *`object`* 
 
-*Defined in core/createReducer/createReducer.h.ts:138*
 
 
 
@@ -480,7 +438,6 @@ ___
 
 **Τ FieldApi**:  *`object`* 
 
-*Defined in react/createField/createField.h.ts:4*
 
 
 #### Type declaration
@@ -630,7 +587,6 @@ ___
 
 **Τ FieldProps**:  *[RenderProps](#renderprops)[FieldApi](#fieldapi)`object`* 
 
-*Defined in react/createField/createField.h.ts:19*
 
 
 
@@ -644,7 +600,6 @@ ___
 
 **Τ FormApi**:  *`object`* 
 
-*Defined in react/createForm/createForm.h.ts:4*
 
 
 #### Type declaration
@@ -715,7 +670,6 @@ ___
 
 **Τ FormBaseState**:  *`object`* 
 
-*Defined in modules/formBase/formBase.h.ts:1*
 
 
 #### Type declaration
@@ -793,7 +747,6 @@ ___
 
 **Τ FormProps**:  *[RenderProps](#renderprops)[FormApi](#formapi)* 
 
-*Defined in react/createForm/createForm.h.ts:12*
 
 
 
@@ -807,7 +760,6 @@ ___
 
 **Τ Module**:  *`object`* 
 
-*Defined in core/createApp/createApp.h.ts:73*
 
 
 
@@ -900,7 +852,6 @@ ___
 
 **Τ ModuleFactory**:  *`function`* 
 
-*Defined in core/createApp/createApp.h.ts:190*
 
 
 
@@ -1026,7 +977,6 @@ ___
 
 **Τ PayloadTransformer0**:  *`function`* 
 
-*Defined in core/createEvent/createEvent.h.ts:64*
 
 
 
@@ -1052,7 +1002,6 @@ ___
 
 **Τ PayloadTransformer1**:  *`function`* 
 
-*Defined in core/createEvent/createEvent.h.ts:70*
 
 
 
@@ -1086,7 +1035,6 @@ ___
 
 **Τ PayloadTransformer2**:  *`function`* 
 
-*Defined in core/createEvent/createEvent.h.ts:77*
 
 
 
@@ -1121,7 +1069,6 @@ ___
 
 **Τ PayloadTransformer3**:  *`function`* 
 
-*Defined in core/createEvent/createEvent.h.ts:85*
 
 
 
@@ -1157,7 +1104,6 @@ ___
 
 **Τ PersistConfig**:  *`object`* 
 
-*Defined in modules/persist/persist.h.ts:11*
 
 
 
@@ -1212,7 +1158,6 @@ ___
 
 **Τ PersistStorage**:  *`object`* 
 
-*Defined in modules/persist/persist.h.ts:1*
 
 
 #### Type declaration
@@ -1224,7 +1169,6 @@ ___
 
 
 
-*Defined in modules/persist/persist.h.ts:2*
 
 
 
@@ -1249,7 +1193,6 @@ ___
 
 
 
-*Defined in modules/persist/persist.h.ts:3*
 
 
 
@@ -1274,7 +1217,6 @@ ___
 
 
 
-*Defined in modules/persist/persist.h.ts:4*
 
 
 
@@ -1305,7 +1247,6 @@ ___
 
 **Τ Reducer**:  *`object`* 
 
-*Defined in core/createReducer/createReducer.h.ts:31*
 
 
 
@@ -1340,7 +1281,6 @@ new state
 
 
 
-*Defined in core/createReducer/createReducer.h.ts:128*
 
 
 
@@ -1382,7 +1322,6 @@ List of eventCreators names
 
 
 
-*Defined in core/createReducer/createReducer.h.ts:111*
 
 
 
@@ -1415,7 +1354,6 @@ Checks if the reducer has a handler for provided event creator or event type.
 
 
 
-*Defined in core/createReducer/createReducer.h.ts:84*
 
 
 
@@ -1454,7 +1392,6 @@ Same reducer
 
 
 
-*Defined in core/createReducer/createReducer.h.ts:63*
 
 
 
@@ -1508,7 +1445,6 @@ same reducer
 
 
 
-*Defined in core/createReducer/createReducer.h.ts:98*
 
 
 
@@ -1542,43 +1478,6 @@ Same reducer
 
 ___
 
-<a id="renderprops"></a>
-
-###  RenderProps
-
-**Τ RenderProps**:  *`object`* 
-
-*Defined in react/createConsumer/createConsumer.h.ts:3*
-
-
-#### Type declaration
-
-
-
-
-«Optional»  children: `undefined`⎮`function`
-
-
-
-
-
-
-«Optional»  component: `ReactType`
-
-
-
-
-
-
-«Optional»  render: `undefined`⎮`function`
-
-
-
-
-
-
-
-___
 
 <a id="stapp"></a>
 
@@ -1586,7 +1485,6 @@ ___
 
 **Τ Stapp**:  *`object`* 
 
-*Defined in core/createApp/createApp.h.ts:216*
 
 
 
@@ -1676,7 +1574,6 @@ ___
 
 **●  FORM_BASE**:  *`string`*  =  `${APP_KEY}/formBase`
 
-*Defined in modules/formBase/constants.ts:3*
 
 
 
@@ -1695,7 +1592,6 @@ ___
   `${APP_KEY}: Replace state`
 )
 
-*Defined in events/dangerous.ts:13*
 
 
 
@@ -1713,7 +1609,6 @@ ___
 
 **●  dangerouslyResetState**:  *[EmptyEventCreator](#emptyeventcreator)*  =  createEvent(`${APP_KEY}: Reset state`)
 
-*Defined in events/dangerous.ts:20*
 
 
 
@@ -1731,7 +1626,6 @@ ___
 
 **●  epicEnd**:  *[EmptyEventCreator](#emptyeventcreator)*  =  createEvent(`${APP_KEY}: Epic enc`)
 
-*Defined in events/epicEnd.ts:10*
 
 
 
@@ -1753,7 +1647,6 @@ ___
 
 **●  resetForm**:  *`object``function`*  =  createEvent(`${FORM_BASE}: Reset form state`)
 
-*Defined in modules/formBase/events.ts:40*
 
 
 
@@ -1771,7 +1664,6 @@ ___
 
 **●  setActive**:  *`object``function`*  =  createEvent<string | null>(`${FORM_BASE}: Set field as active`)
 
-*Defined in modules/formBase/events.ts:30*
 
 
 
@@ -1788,7 +1680,6 @@ ___
 
 **●  setError**:  *`object``function`*  =  createEvent<{ [K: string]: string }>(`${FORM_BASE}: Set field error`)
 
-*Defined in modules/formBase/events.ts:18*
 
 
 
@@ -1805,7 +1696,6 @@ ___
 
 **●  setReady**:  *`object``function`*  =  createEvent<{ [K: string]: boolean }>(`${FORM_BASE}: Set readiness`)
 
-*Defined in modules/formBase/events.ts:35*
 
 
 
@@ -1824,7 +1714,6 @@ ___
   `${FORM_BASE}: Set field as touched`
 )
 
-*Defined in modules/formBase/events.ts:23*
 
 
 
@@ -1841,7 +1730,6 @@ ___
 
 **●  setValue**:  *`object``function`*  =  createEvent<{ [K: string]: any }>(`${FORM_BASE}: Set field value`)
 
-*Defined in modules/formBase/events.ts:13*
 
 
 
@@ -1858,7 +1746,6 @@ ___
 
 **●  submit**:  *`object``function`*  =  createEvent(`${FORM_BASE}: Submit`, () => undefined)
 
-*Defined in modules/formBase/events.ts:45*
 
 
 
@@ -1883,7 +1770,6 @@ ___
 
 
 
-*Defined in epics/combineEpics/combineEpics.ts:13*
 
 
 
@@ -1934,7 +1820,6 @@ ___
 
 
 
-*Defined in core/createApp/createApp.ts:37*
 
 
 
@@ -2005,7 +1890,6 @@ ___
 
 
 
-*Defined in react/createConsume/createConsume.tsx:38*
 
 
 
@@ -2059,7 +1943,6 @@ ___
 
 
 
-*Defined in react/createConsumer/createConsumer.ts:59*
 
 
 
@@ -2115,7 +1998,6 @@ ___
 
 
 
-*Defined in core/createEffect/createEffect.ts:112*
 
 
 
@@ -2179,7 +2061,6 @@ ___
 
 
 
-*Defined in core/createEvent/createEvent.ts:41*
 
 
 
@@ -2207,7 +2088,6 @@ Creates an event creator that accepts no arguments ([EmptyEventCreator](#emptyev
 
 
 
-*Defined in core/createEvent/createEvent.ts:57*
 
 
 
@@ -2243,7 +2123,6 @@ Type of event creator argument (and payload)
 
 
 
-*Defined in core/createEvent/createEvent.ts:75*
 
 
 
@@ -2283,7 +2162,6 @@ Type of event meta
 
 
 
-*Defined in core/createEvent/createEvent.ts:98*
 
 
 
@@ -2327,7 +2205,6 @@ Type of event meta
 
 
 
-*Defined in core/createEvent/createEvent.ts:122*
 
 
 
@@ -2375,7 +2252,6 @@ Type of event meta
 
 
 
-*Defined in core/createEvent/createEvent.ts:147*
 
 
 
@@ -2439,7 +2315,6 @@ ___
 
 
 
-*Defined in react/createField/createField.tsx:51*
 
 
 
@@ -2512,7 +2387,6 @@ ___
 
 
 
-*Defined in react/createForm/createForm.tsx:57*
 
 
 
@@ -2586,7 +2460,6 @@ ___
 
 
 
-*Defined in core/createReducer/createReducer.ts:17*
 
 
 
@@ -2632,7 +2505,6 @@ ___
 
 
 
-*Defined in modules/formBase/selectors.ts:24*
 
 
 
@@ -2662,7 +2534,6 @@ ___
 
 
 
-*Defined in modules/formBase/formBase.ts:13*
 
 
 
@@ -2709,7 +2580,6 @@ ___
 
 
 
-*Defined in helpers/testHelpers/getInitialState/getInitialState.ts:3*
 
 
 
@@ -2745,7 +2615,6 @@ ___
 
 
 
-*Defined in modules/formBase/selectors.ts:16*
 
 
 
@@ -2769,7 +2638,6 @@ ___
 
 
 
-*Defined in modules/formBase/selectors.ts:22*
 
 
 
@@ -2802,7 +2670,6 @@ ___
 
 
 
-*Defined in modules/formBase/selectors.ts:10*
 
 
 
@@ -2824,7 +2691,6 @@ ___
 
 
 
-*Defined in modules/formBase/selectors.ts:4*
 
 
 
@@ -2849,7 +2715,6 @@ ___
 
 
 
-*Defined in modules/persist/persist.ts:82*
 
 
 
@@ -2890,7 +2755,6 @@ ___
 
 
 
-*Defined in react/helpers/renderComponent.ts:5*
 
 
 
@@ -2923,7 +2787,6 @@ ___
 
 
 
-*Defined in epics/select/select.ts:16*
 
 
 
@@ -2969,7 +2832,6 @@ ___
 
 
 
-*Defined in epics/select/select.ts:31*
 
 
 
@@ -3007,7 +2869,6 @@ ___
 
 
 
-*Defined in helpers/awaitStore/awaitStore.ts:24*
 
 
 
